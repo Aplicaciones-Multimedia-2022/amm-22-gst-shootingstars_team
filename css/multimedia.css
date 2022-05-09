@@ -1,0 +1,8 @@
+.divcontroles {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boton {
+  font-size: 30px;
+}
