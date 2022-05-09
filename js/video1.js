@@ -11,8 +11,7 @@ const boton5 = document.getElementById("boton5");
 const boton6 = document.getElementById("bajustes");
 const boton8 = document.getElementById("boton8");
 const boton9 = document.getElementById("bprejuego");
-const boton10 = document.getElementById("video");
-const boton11 = document.getElementById("gst");
+const boton10 = document.getElementById("volver");
 let sonido1 = new Audio();
 let espera;
 sonido1.src = "../media/click/mouse-click.wav";
@@ -49,10 +48,6 @@ boton10.addEventListener("click", function diez() {
   sonido1.play();
   espera = setTimeout(redireccionar10, 400);
 });
-boton11.addEventListener("click", function once() {
-  sonido1.play();
-  espera = setTimeout(redireccionar11, 400);
-});
 
 function redireccionar1() {
   location.replace("../html/portada.html");
@@ -76,10 +71,7 @@ function redireccionar9() {
   location.replace("../html/prejuego.html");
 }
 function redireccionar10() {
-  location.replace("../html/video1.html");
-}
-function redireccionar11() {
-  location.replace("../html/gst.html");
+  location.replace("../html/multimedia.html");
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
