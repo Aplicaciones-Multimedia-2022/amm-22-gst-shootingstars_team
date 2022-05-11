@@ -34,6 +34,11 @@
       theoraenc ! m. oggmux name=m ! queue ! tcpserversink host=127.0.0.1
       port=9090
     </p>
+    <div class="video">
+      <video width="750" height="400" autoplay>
+        <source src="http://localhost:9090" />
+      </video>
+    </div>
     <div class="divvolver">
       <nav>
         <a class="botonv" id="volver">Volver</a>
