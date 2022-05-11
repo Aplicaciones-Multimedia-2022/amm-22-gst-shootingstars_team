@@ -36,6 +36,7 @@
 .gst {
   color: aliceblue;
   font-family: retro;
-  text-align: center;
-  float: center;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
 }
